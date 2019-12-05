@@ -26,8 +26,10 @@ export default function Body() {
   const promptSeed = [
     'What\'s your favorite part of your job?',
     'What makes you good at what you do?',
-    'What do you do for fun?',
-    'Another good question to ask.',
+    'What is a passion project you\'re working on?',
+    'What\'s the weirdest bug you\'ve found?',
+    'How did you start working with this company?',
+    'What do you look for in a candidate?',
   ];
 
   const [currentPrompt, setPrompt] = useState(0);
